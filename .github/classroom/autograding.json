@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "Test number set 1",
+      "setup": "g++ -o a.out ./Homework/HW04/hw04-3-basic-operator.cpp",
+      "run": "./a.out",
+      "input": "2 3 1",
+      "output": "Answer = 6",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Test number set 2",
+      "setup": "g++ -o a.out ./Homework/HW04/hw04-3-basic-operator.cpp",
+      "run": "./a.out",
+      "input": "4 -1 3",
+      "output": "Answer = 6",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
