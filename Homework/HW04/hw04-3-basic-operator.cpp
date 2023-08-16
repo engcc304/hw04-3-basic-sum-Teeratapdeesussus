@@ -14,17 +14,13 @@
 */
 #include <stdio.h>
 
-int main(){
+int main() {
+    float h, w;
+    printf("Enter H & W :\n");
+    scanf("%f %f", &h, &w);
 
-    float H, W ;
-    printf( "Enter H & W :\n" ) ;
-    scanf( "%f %f", &H, &W );
+    float area = (h * w) / 2;
+    printf("Triagle Area : %.1f\n", area);
 
-    float total ;
-    total = (H * W) /2 ;
-
-    printf( "Triagle Area : " ) ;
-    printf( "%0.1f", total ) ;
-
-    return 0 ;
+    return 0;
 }
