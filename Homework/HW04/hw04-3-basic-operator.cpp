@@ -15,12 +15,12 @@
 #include <stdio.h>
 
 int main() {
-    float h, w;
-    printf("Enter H & W :\n");
-    scanf("%f %f", &h, &w);
+    int num1 , num2 , num3;
+    printf("Please enter three nubmers: ");
+    scanf("%d %d %d", &num1 , &num2 , &num3);
 
-    float area = (h * w) / 2;
-    printf("Triagle Area : %.1f\n", area);
-
+    int sum = num1 + num2 + num3;
+    printf("Answer = %d\n", sum);
+    
     return 0;
 }
